@@ -15,6 +15,8 @@ import { Dimensions } from 'react-native';
 import Coverlist from "../../components/coverlist";
 import { navigationProp, routeProp } from '../../types/navigate';
 
+// 发送 GET 请求
+
 //type
 interface Props {
   navigation: navigationProp;
@@ -24,10 +26,10 @@ const windowHeight = Dimensions.get('window').height;
 const HomeScreen: React.FC<Props> = ({ navigation }) => {
   const goSearch = () => {
     navigation.navigate('Search', {})
-  }
+  }  
+
   const golist = (num:number) => {
     console.log("点击事件",num);
-    
     // navigation.navigate('Search', {})
   }
   return (

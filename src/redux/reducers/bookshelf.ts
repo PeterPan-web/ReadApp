@@ -13,7 +13,7 @@ const initState: StoreBookshelf = {
       pUri: "http://m.zwduxs.com/info/10389/",
       preChapter: 0,
     },
-    {name: '七月', 
+    {name: '一剑飞仙', 
     pUri: 'http://m.zwduxs.com/info/105448/', 
     preChapter: 0}
   ],

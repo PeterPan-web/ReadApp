@@ -18,7 +18,7 @@ function coverlist() {
       }>
         <View borderRadius="20" flexDirection='row' paddingBottom="30" >
           <HStack space={3}  backgroundColor="rgb(247,247,247)">
-          <View><Image source={require("../img/num.jpg")} w={100} h={140} borderRadius={10}></Image>
+          <View><Image source={require("../img/num.jpg")} alt="这是一张漂亮的图片" w={100} h={140} borderRadius={10}></Image>
           </View>
           <View pt={1} w={250} overflow={'hidden'}>
             <VStack space={4}>
